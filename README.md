@@ -24,8 +24,8 @@ This Python script is an IRC bot that answers questions in monitored channels an
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-repo/bot-irc-chatgpt.git
-   cd bot-irc-chatgpt
+   git clone https://github.com/waldostilben/irc_gpt_bot
+   cd irc_gpt_bot
    ```
 
 2. Install dependencies:
@@ -75,7 +75,7 @@ This Python script is an IRC bot that answers questions in monitored channels an
 - **Description**: Send this command in a private message to the bot to add new channels to the monitored list.
 - **Example**:
   ```
-  /msg Stilben-GPT .join #channel1 #channel2
+  /msg YourBotNickName .join #channel1 #channel2
   ```
 
 #### Automatic Channel Detection
